@@ -23,7 +23,7 @@ jobs:
           FLAGS=$(root-config --cflags --libs)
           $COMPILER -g -O3 -Wall -Wextra -Wpedantic -o skim skim.cxx $FLAGS
 
-      - uses: action/upload-artifact@v2
+      - uses: actions/upload-artifact@v2
         with:
           name: skim$({ matrix.version })
           path: skim
