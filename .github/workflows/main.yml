@@ -1,6 +1,6 @@
 name: example
 on: push
-jjobs:
+jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
