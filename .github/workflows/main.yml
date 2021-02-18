@@ -97,4 +97,4 @@ jobs:
         run: python tests/test_plot_ggH.py
 
       - name: dumb test
-        run: python tests/Dumb_test.py secrets.${{ secrets.USER_NAME }}
+        run: python tests/Dumb_test.py ${{ secrets.USER_NAME }}
