@@ -95,3 +95,6 @@ jobs:
 
       - name: plot test
         run: python tests/test_plot_ggH.py
+
+      - name: dumb test
+        run: python tests/Dumb_test.py jp643@sussex.ac.uk
